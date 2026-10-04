@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Stick Hero: Legends — ingyenes játék letöltése.">
+<title>Stick Hero: Legends</title>
+<style>
+:root{--bg:#090b13;--panel:#121827;--panel2:#192236;--text:#f7f8ff;--muted:#9da8bd;--accent:#66e3ff;--accent2:#8b6cff;--line:#28334b}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 50% 0,#24304f 0,#090b13 48%);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;min-height:100vh}
+.wrap{max-width:1050px;margin:auto;padding:24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+.logo{font-weight:900;letter-spacing:.5px;font-size:20px}.logo span{color:var(--accent)}
+.hero{margin-top:50px;text-align:center;padding:60px 20px 45px}
+.badge{display:inline-block;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:#111a2b;color:var(--accent);font-size:13px;font-weight:700}
+h1{font-size:clamp(42px,9vw,82px);line-height:.95;margin:18px 0 14px;letter-spacing:-3px}
+.lead{max-width:650px;margin:0 auto;color:var(--muted);font-size:18px;line-height:1.6}
+.buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 22px;border-radius:14px;border:1px solid var(--line);background:var(--panel);color:var(--text);text-decoration:none;font-weight:800}
+.btn.primary{background:var(--accent);color:#071018;border-color:var(--accent)}
+.btn.disabled{opacity:.55;cursor:not-allowed}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:25px 0}
+.card{background:linear-gradient(145deg,var(--panel),#0e1421);border:1px solid var(--line);border-radius:20px;padding:24px}
+.icon{font-size:30px}.card h2{margin:10px 0 7px;font-size:21px}.card p{margin:0;color:var(--muted);line-height:1.5}
+.section{margin:55px 0}.section h2{font-size:30px;margin-bottom:8px}.section>p{color:var(--muted)}
+footer{border-top:1px solid var(--line);margin-top:60px;padding:25px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:700px){.wrap{padding:16px}.hero{margin-top:20px;padding:45px 8px 30px}.grid{grid-template-columns:1fr}h1{letter-spacing:-2px}.btn{width:100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><div class="logo">STICK <span>HERO</span>: LEGENDS</div><div style="color:var(--muted);font-size:13px">FREE • 2D</div></nav>
+<main>
+<section class="hero">
+<div class="badge">⚡ OFFICIAL PROJECT PAGE</div>
+<h1>STICK HERO:<br><span style="color:var(--accent)">LEGENDS</span></h1>
+<p class="lead">Egy gyors, látványos 2D kaland saját hősökkel, pályákkal, bossokkal, trófeákkal és fejlődési rendszerrel.</p>
+<div class="buttons">
+<a class="btn primary" href="#downloads">⬇ LETÖLTÉS</a>
+<a class="btn" href="#features">A JÁTÉKRÓL</a>
+</div>
+</section>
+
+<section id="downloads" class="section">
+<h2>Letöltések</h2>
+<p>A fájlokat ide fogjuk bekötni, amikor elkészülnek a végleges Android és PC build-ek.</p>
+<div class="grid">
+<article class="card"><div class="icon">📱</div><h2>Android</h2><p>Telefonos verzió érintőgombokkal. Az APK helye előkészítve.</p><div class="buttons" style="justify-content:flex-start"><a class="btn disabled" href="#">ANDROID — HAMAROSAN</a></div></article>
+<article class="card"><div class="icon">🖥️</div><h2>Windows</h2><p>PC-s verzió átméretezhető ablakkal és teljes képernyős móddal.</p><div class="buttons" style="justify-content:flex-start"><a class="btn disabled" href="#">WINDOWS — HAMAROSAN</a></div></article>
+<article class="card"><div class="icon">🍎</div><h2>iPhone / iPad</h2><p>Az iOS buildet később, az Apple szükséges build-folyamata után kötjük be.</p><div class="buttons" style="justify-content:flex-start"><a class="btn disabled" href="#">iOS — KÉSŐBB</a></div></article>
+</div>
+</section>
+
+<section id="features" class="section">
+<h2>Mi van a játékban?</h2>
+<div class="grid">
+<div class="card"><div class="icon">🦸</div><h2>10 hős</h2><p>Rare, Super Rare, Epic, Mythic és Legendary karakterek. A zárolt hősök fokozatosan nyithatók.</p></div>
+<div class="card"><div class="icon">🏆</div><h2>Trophy Road</h2><p>Meccsekből és kihívásokból trófeákat szerezhetsz, amelyek új jutalmakat nyitnak meg.</p></div>
+<div class="card"><div class="icon">👑</div><h2>Bossok</h2><p>Öt különálló fejezet, külön pályák és egyre erősebb ellenfelek.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Frissítések</h2>
+<p>Az új verziók, javítások és új tartalmak ugyanitt jelenhetnek meg. A weboldal statikus, ezért nincs szükség külön szerverprogramra a bemutatóoldal működéséhez.</p>
+</section>
+</main>
+<footer><span>© 2026 Stick Hero: Legends</span><span>Free to play</span></footer>
+</div>
+</body>
+</html>
